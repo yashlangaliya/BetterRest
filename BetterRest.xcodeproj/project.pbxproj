@@ -13,6 +13,7 @@
 		4F997E6B23EC7F6F004B6751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F997E6A23EC7F6F004B6751 /* Assets.xcassets */; };
 		4F997E6E23EC7F6F004B6751 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F997E6D23EC7F6F004B6751 /* Preview Assets.xcassets */; };
 		4F997E7123EC7F6F004B6751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F997E6F23EC7F6F004B6751 /* LaunchScreen.storyboard */; };
+		4FE12EE623EEB08700336A5E /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FE12EE523EEB08700336A5E /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4F997E6D23EC7F6F004B6751 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F997E7023EC7F6F004B6751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F997E7223EC7F6F004B6751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE12EE523EEB08700336A5E /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4F997E6A23EC7F6F004B6751 /* Assets.xcassets */,
 				4F997E6F23EC7F6F004B6751 /* LaunchScreen.storyboard */,
 				4F997E7223EC7F6F004B6751 /* Info.plist */,
+				4FE12EE523EEB08700336A5E /* SleepCalculator.mlmodel */,
 				4F997E6C23EC7F6F004B6751 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F997E6523EC7F6D004B6751 /* AppDelegate.swift in Sources */,
+				4FE12EE623EEB08700336A5E /* SleepCalculator.mlmodel in Sources */,
 				4F997E6723EC7F6D004B6751 /* SceneDelegate.swift in Sources */,
 				4F997E6923EC7F6D004B6751 /* ContentView.swift in Sources */,
 			);
